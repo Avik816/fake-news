@@ -30,3 +30,10 @@ TF-IDF vectorization is used to convert text data into numerical vectors:
 from sklearn.feature_extraction.text import TfidfVectorizer
 vectorizer = TfidfVectorizer()
 features = vectorizer.fit_transform(preprocessed_text)
+
+## 🧪 Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
